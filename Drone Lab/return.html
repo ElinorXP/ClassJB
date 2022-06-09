@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return</title>
+</head>
+<body>
+
+    <center>
+
+        <table border="1" cellspacing="5" cellpadding="10">
+            <tr>
+                <td><a href="./login.html">Login</a></td>
+                <td><a href="./sale.html">Sale</a></td>
+                <td><a href="./repair.html">Repair</a></td>
+                <td><a href="./return.html">Return</a></td>
+            </tr>
+        </table>
+
+        <h1>Product Return</h1>
+
+    </center>
+
+    <form action="" method="post" enctype="text/plain">
+
+        <fieldset>
+            <h4>Number</h4>
+            <input type="text" name="productNumber" placeholder="Product Number"/>
+            <h4>Date</h4>
+            <input type="date" name="date"/>
+            <h4>Reason</h4>
+            <textarea name="returnReason" rows="10" cols="50" placeholder="Describe the reason for returning the product"></textarea>
+        </fieldset>
+
+        <br/><br/>
+
+        <input type="submit" name="returnFormSubmit" value="Submit"/>
+        <input type="reset" value="Reset Form"/>
+
+    </form>
+    
+</body>
+</html>

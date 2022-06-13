@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-image: url('https://cdn.wallpapersafari.com/84/64/sfvXo0.jpg');
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    background-color: rgb(228, 228, 228);
+    border: 0;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.page-title{
+    color: #fff;
+
+}
+
+.movie-nav{
+    background-color: rgb(255,255,255);
+    width: 15%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.movie-category{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.movie-nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.movie-nav a:hover{
+    background: rgb(212, 212, 212);
+}
+
+.movie-nav a:active{
+    background: rgb(177, 177, 177);
+}
+
+.inner-list{
+    border: .2vw solid rgb(44, 44, 44);
+    border-radius: 0 0 10px 10px;
+}
+
+.inner-list > li:last-child a:hover{
+    border-radius: 0 0 8px 8px;
+}
